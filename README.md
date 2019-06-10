@@ -1,4 +1,4 @@
-Classification
+#Classification
 In this example, we will classify mushrooms as being edible or poisonous depending on different features. Logistic regression, linear discriminant analysis and quadratic discriminant analysis will be used.
 
 The data set contains 8124 rows and the following features:

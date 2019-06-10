@@ -1,5 +1,6 @@
-#Classification
-In this example, we will classify mushrooms as being edible or poisonous depending on different features. Logistic regression, linear discriminant analysis and quadratic discriminant analysis will be used.
+# Classification 
+
+In this example, I will classify mushrooms as being edible or poisonous depending on different features. keras will be used.
 
 The data set contains 8124 rows and the following features:
 
@@ -48,3 +49,18 @@ spore-print-color: black(k), brown(n), buff(b), chocolate(h), green(r), orange(o
 population: abundant(a), clustered(c), numerous(n), scattered(s), several(v), solitary(y)
 
 habitat: grasses(g), leaves(l), meadows(m), paths(p), urban(u), waste(w), woods(d)
+
+
+## Development server
+
+The server.py has been implemented in how to encode data and training data with ML methods.
+You can use the Anaconda application to run the Python files on Windows.
+To run the server.py in the Anaconda environment, you first need to install the following packages by executing the following commands in Anaconda’s terminal.
+[Keras, Tensorflow, Flask] 
+
+`pip install tensorflow`
+`pip install flask`
+`pip install keras`
+
+After installing the above packages, you can run the file server by running the following command. 
+`Python server.py`
